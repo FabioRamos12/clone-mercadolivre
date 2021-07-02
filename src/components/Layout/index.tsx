@@ -7,13 +7,13 @@ import { Product } from "../Product";
 export function Layout() {
   return (
     <Container>
-      {/* <Header /> */}
+      <Header />
 
       <Wrapper>
         <Product />
       </Wrapper>
 
-      {/* <Footer /> */}
+      <Footer />
     </Container>
   );
 }

@@ -1,14 +1,12 @@
 import React from "react";
 
-import { HiOutlineHeart } from "react-icons/hi";
-
 import {
   Container,
   Condition,
   Row,
   HeartIcon,
   DispatchTag,
-  PriceTag,
+  PriceCard,
   PriceRow,
   InstallmentsInfo,
   StockStatus,
@@ -32,7 +30,7 @@ export function ProductAction() {
 
       <DispatchTag>Enviando normalmente</DispatchTag>
 
-      <PriceTag>
+      <PriceCard>
         <PriceRow>
           <span className="symbol">R$</span>
           <span className="fraction">34</span>
@@ -40,7 +38,7 @@ export function ProductAction() {
         </PriceRow>
 
         <InstallmentsInfo>em 3x de 11,67</InstallmentsInfo>
-      </PriceTag>
+      </PriceCard>
 
       <StockStatus>Estoque disponível</StockStatus>
 
